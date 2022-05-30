@@ -1,8 +1,8 @@
 {
   "name": "mcsmanager-panel",
-  "version": "9.4.4",
-  "daemonVersion": "1.5.4",
-  "description": "Distributed clustering, groupable, lightweight and out-of-the-box Minecraft server management panel",
+  "version": "9.4.5",
+  "daemonVersion": "1.5.5",
+  "description": "Distributed clustering, Groupable, Lightweight and out-of-the-box Minecraft server management panel",
   "scripts": {
     "dev": "nodemon app.js",
     "start": "ts-node ./src/app.ts",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@koa/router": "^10.0.0",
+    "axios": "^0.27.2",
     "crypto": "^1.0.1",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0",
