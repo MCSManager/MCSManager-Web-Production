@@ -7,8 +7,6 @@ yarn-error.log*
 lerna-debug.log*
 test.txt
 *.bat
-
-src/public
 *.code-workspace
 vscode/
 .vscode/
@@ -16,7 +14,6 @@ Daemon/
 data/
 dist/
 out/
-public/
 production/
 .DS_Store
 
